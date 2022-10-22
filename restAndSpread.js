@@ -1,10 +1,10 @@
-function sizCevapVerin() {
+export function sizCevapVerin() {
   return [10, 20, 30, 40, 50];
 }
 
 // Rest Operator
 // parametrelerinizi bir diziye dönüştürür, toparlar.
-function sum(...numbers) {
+export function sum(...numbers) {
   //console.info("number3:", Number(number3));
   let total = 0;
   for (let i = 0; i < numbers.length; i++) {
@@ -21,7 +21,7 @@ function avg(cevapVerenKisiSayisi, ...numbers) {
 
 // Spread Operator
 // bir dizi elemanlarını tek tek parametre olarak gönderir, yani birbirinden ayrıştırır.
-const cevaplariniz = sizCevapVerin();
+export const cevaplariniz = sizCevapVerin();
 const result = avg(26, ...cevaplariniz);
 console.log(result);
 // console.log(Math.max(...cevaplariniz));
