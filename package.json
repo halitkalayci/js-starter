@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "start-loops": "node loops.js",
-    "start-scope": "node scope.js"
+    "start-scope": "node scope.js",
+    "start-restAndSpread": "node restAndSpread.js"
   },
   "keywords": [],
   "author": "",
