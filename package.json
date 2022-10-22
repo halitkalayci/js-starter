@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "start-loops": "node loops.js"
+    "start-loops": "node loops.js",
+    "start-scope": "node scope.js"
   },
   "keywords": [],
   "author": "",
