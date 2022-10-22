@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node functions.js"
+    "start": "node index.js",
+    "start-loops": "node loops.js"
   },
   "keywords": [],
   "author": "",
