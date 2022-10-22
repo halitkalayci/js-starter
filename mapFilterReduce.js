@@ -59,3 +59,18 @@ let cart = [
 // Kullanıcıya göster {totalPrice:300,totalProductCount:6}
 
 // reduce fonksiyonu
+//foreach, map
+let cartTotal = cart.reduce(
+	(acc, cartItem) => acc + cartItem.quantity * cartItem.unitPrice,
+	0,
+);
+let cartQuantityTotal = cart.reduce(
+	(acc, cartItem) => acc + cartItem.quantity,
+	0,
+);
+//back tick
+console.log(
+	`Toplam sepet tutarı: ${cartTotal} Sepette toplam ${cartQuantityTotal} adet ürün var.`,
+);
+// accumelator
+// accumulation
