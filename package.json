@@ -9,7 +9,9 @@
     "start-loops": "node loops.js",
     "start-scope": "node scope.js",
     "start-restAndSpread": "node restAndSpread.js",
-    "start-destructuring": "node destructuring.js"
+    "start-destructuring": "node destructuring.js",
+    "start-oop": "node oop.js",
+    "start-oop2": "node oop2.js"
   },
   "keywords": [],
   "author": "",
